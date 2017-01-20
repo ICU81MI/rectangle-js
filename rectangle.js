@@ -12,4 +12,8 @@ class Rectangle {
   area() {
     return this.width * this.height;
   }
+
+  perimeter() {
+    return 2 * this.width + 2 * this.height;
+  }
 }
